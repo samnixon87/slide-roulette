@@ -13,7 +13,7 @@ Vanilla js implementation of a slide roulette game. Slide Roulette is a non-comp
 ## How to play?
 
 - Get together in front of a screen, usually have some way for whoever is speaking to see the screen but also see other players
-- Open `url todo`
+- Got to `https://samnixon.uk/slide-roulette/`
 - Decide who goes first, second, third etc etc
 - Hit the timer
 - Start telling stories 😀
