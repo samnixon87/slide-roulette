@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: #ffffff;
+  color: red;
+  font-family: Menlo;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.controls {
+  z-index: 100;
+  position: fixed;
+  text-align: center;
+  top: 1em;
+  width: 100%;
+}
+
+.button {
+  color: #bbb;
+  font-size: 2vw;
+  margin: 0 0.5em;
+  text-decoration: none;
+}
+
+.button:first-child {
+  margin-left: 0;
+}
+
+.button:last-child {
+  margin-right: 0;
+}
+
+.button:hover {
+  color: red;
+}
+
+.stopwatch {
+  font-size: 10vw;
+  text-align: center;
+}
+
+.footer {
+  height: 40px;
+  position: fixed;
+  bottom: 80%;
+  width: 100%;
+}
