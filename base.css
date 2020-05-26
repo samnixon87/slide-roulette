@@ -1,24 +1,18 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 html {
-  background: #ffffff;
-  color: red;
+  color: #fef800;
   font-family: Menlo;
 }
 
-.image {
+body {
+  background-image: url("https://picsum.photos/2000");
+  width: 100%;
   max-width: 100%;
   height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  max-height: auto;
+  background-position: center;
 }
 
 .controls {
-  z-index: 100;
   position: fixed;
   text-align: center;
   top: 1em;
@@ -26,7 +20,7 @@ html {
 }
 
 .button {
-  color: #bbb;
+  color: #4a4a4a;
   font-size: 2vw;
   margin: 0 0.5em;
   text-decoration: none;
@@ -50,8 +44,8 @@ html {
 }
 
 .footer {
-  height: 40px;
   position: fixed;
-  bottom: 80%;
+  height: 40px;
+  bottom: 90%;
   width: 100%;
 }
